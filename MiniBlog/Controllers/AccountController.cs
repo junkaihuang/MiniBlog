@@ -73,7 +73,7 @@ namespace MiniBlog.Controllers
                 }
                 if (result.IsLockedOut)
                 {
-                    _logger.LogWarning("User account locked out.");
+                    _logger.LogWarning("User account locked out.11111");
                     return RedirectToAction(nameof(Lockout));
                 }
                 else

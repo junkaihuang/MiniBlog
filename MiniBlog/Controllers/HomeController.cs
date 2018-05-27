@@ -17,7 +17,7 @@ namespace MiniBlog.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page2.";
+            ViewData["Message"] = "Your application description page2.-----";
 
             return View();
         }
