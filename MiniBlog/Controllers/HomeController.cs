@@ -17,14 +17,14 @@ namespace MiniBlog.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page2.-----";
+            ViewData["Message"] = "Your application description page2.-----34543535";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.3";
+            ViewData["Message"] = "Your contact page.3333453535";
 
             return View();
         }
