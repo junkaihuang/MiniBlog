@@ -78,7 +78,7 @@ namespace MiniBlog.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.33");
                     return View(model);
                 }
             }
@@ -96,7 +96,7 @@ namespace MiniBlog.Controllers
 
             if (user == null)
             {
-                throw new ApplicationException($"Unable to load two-factor authentication user.");
+                throw new ApplicationException($"Unable to load two-factor authentication user33.");
             }
 
             var model = new LoginWith2faViewModel { RememberMe = rememberMe };
